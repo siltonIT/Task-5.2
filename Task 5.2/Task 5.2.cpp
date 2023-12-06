@@ -26,7 +26,11 @@ int main()
             goto wrong_fill_type;
             break;
     }
-     
+
+    for (auto el : seq)
+    {
+        cout << el << '\t';
+    } 
 
     int sort_type; 
     wrong_sort_type: cin >> sort_type;
